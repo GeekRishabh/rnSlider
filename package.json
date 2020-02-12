@@ -1,0 +1,20 @@
+{
+  "name": "react-native-slider-custom",
+  "version": "0.0.1",
+  "description": "A pure JavaScript <Slider /> component for react-native [Custom]",
+  "main": "src/Slider.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+
+  "license": "",
+  "scripts": {
+    "clean": "rimraf lib",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jeanregisser/react-native-slider.git"
+  }
+}
